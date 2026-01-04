@@ -5,7 +5,6 @@ homepage: https://github.com/abhijithsabudev/haptic_composer
 repository: https://github.com/abhijithsabudev/haptic_composer
 issue_tracker: https://github.com/abhijithsabudev/haptic_composer/issues
 documentation: https://pub.dev/packages/haptic_composer
-publish_to: 'https://pub.dev'
 
 environment:
   sdk: ^3.10.4
