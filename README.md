@@ -29,7 +29,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  haptic_composer: ^0.0.2
+  haptic_composer: ^0.0.3
 ```
 
 ### Basic Usage

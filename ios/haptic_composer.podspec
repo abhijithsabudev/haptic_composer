@@ -23,20 +23,3 @@ Design custom haptic experiences as easily as composing music.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.swift_version = '5.0'
 end
-    }
-  }
-
-  private func isSupported(result: @escaping FlutterResult) {
-    result(CHHapticEngine.capabilitiesForHardware().supportsHaptics)
-  }
-
-  private func dispose(result: @escaping FlutterResult) {
-    do {
-      try hapticEngine?.stop()
-      hapticEngine = nil
-      result(nil)
-    } catch {
-      result(FlutterError(code: "DISPOSE_ERROR", message: "Failed to dispose haptic engine", details: nil))
-    }
-  }
-}

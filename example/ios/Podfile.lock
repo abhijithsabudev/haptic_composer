@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - haptic_composer (0.1.0):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - haptic_composer (from `.symlinks/plugins/haptic_composer/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  haptic_composer:
+    :path: ".symlinks/plugins/haptic_composer/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  haptic_composer: 429b946dfe4c095a7b9a877bb73e0e9d5dc76270
+
+PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
+
+COCOAPODS: 1.16.2

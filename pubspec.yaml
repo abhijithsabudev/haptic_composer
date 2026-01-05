@@ -1,6 +1,6 @@
 name: haptic_composer
 description: "Design custom haptic experiences as easily as composing music - make your app feel as good as it looks. Includes 25+ presets, pattern builder, widgets, and visual composer UI."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/abhijithsabudev/haptic_composer
 repository: https://github.com/abhijithsabudev/haptic_composer
 issue_tracker: https://github.com/abhijithsabudev/haptic_composer/issues
