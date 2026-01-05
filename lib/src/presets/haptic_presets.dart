@@ -206,12 +206,20 @@ class HapticPresets {
 
   /// Standard medium feedback
   static final HapticPattern medium = HapticPattern.builder()
-      .impact(intensity: HapticEffect.intensityMedium, duration: 60, sharpness: 0.7)
+      .impact(
+        intensity: HapticEffect.intensityMedium,
+        duration: 60,
+        sharpness: 0.7,
+      )
       .build();
 
   /// Strong, prominent feedback
   static final HapticPattern strong = HapticPattern.builder()
-      .impact(intensity: HapticEffect.intensityStrong, duration: 80, sharpness: 0.9)
+      .impact(
+        intensity: HapticEffect.intensityStrong,
+        duration: 80,
+        sharpness: 0.9,
+      )
       .build();
 
   /// Very subtle double tap

@@ -2,7 +2,7 @@ name: haptic_composer_example
 description: "Example app demonstrating the haptic_composer package."
 publish_to: 'none'
 
-version: 0.0.1+1
+version: 0.0.2+1
 
 environment:
   sdk: ^3.10.4

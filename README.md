@@ -2,9 +2,6 @@
 
 🎯 **Design custom haptic experiences as easily as composing music** - make your app feel as good as it looks.
 
-[![pub package](https://img.shields.io/pub/v/haptic_composer.svg)](https://pub.dev/packages/haptic_composer)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Buy Me A Coffee](https://img.shields.io/badge/☕_Buy%20Me%20A%20Coffee-Support%20My%20Work-yellow?style=for-the-badge&logoColor=black&link=https://buymeacoffee.com/abhijithsabudev)](https://buymeacoffee.com/abhijithsabudev)
 
 ## Features
 
@@ -32,7 +29,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  haptic_composer: ^0.0.1
+  haptic_composer: ^0.0.2
 ```
 
 ### Basic Usage
@@ -57,6 +54,20 @@ await HapticComposer.play(
   ),
 );
 ```
+
+## Platform Setup
+
+### Android
+
+Add the vibrate permission to your `android/app/src/main/AndroidManifest.xml`:
+
+```xml
+<uses-permission android:name="android.permission.VIBRATE" />
+```
+
+### iOS
+
+No additional configuration needed. The Core Haptics framework is built-in on iOS 13+.
 
 ## Usage Examples
 
@@ -202,21 +213,6 @@ if (validation.isValid) {
 | iOS      | ✅ Core Haptics API (iOS 13+) |
 | Android  | ✅ VibrationEffect API (Android 5+) |
 
-## Example App
-
-Run the complete example with pattern gallery and composer:
-
-```bash
-cd example
-flutter pub get
-flutter run
-```
-
-## Getting Help
-
-- 📖 Check the [example app](https://github.com/abhijithsabudev/haptic_composer/tree/main/example)
-- 🐛 [Report issues](https://github.com/abhijithsabudev/haptic_composer/issues)
-- 💬 [GitHub Discussions](https://github.com/abhijithsabudev/haptic_composer)
 
 ## Support
 
@@ -232,4 +228,4 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 ---
 
-Made with ❤️ by [Abhijith Sabu](https://github.com/abhijithsabudev)
+Made with ❤️ for flutter community
